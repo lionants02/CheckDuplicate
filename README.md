@@ -1,6 +1,7 @@
-"# CheckDuplicate" 
+"# CheckDuplicate"  
+[![Build Status](https://travis-ci.org/lionants02/CheckDuplicate.svg?branch=master)](https://travis-ci.org/lionants02/CheckDuplicate.ini) [![Release](https://jitpack.io/v/lionants02/CheckDuplicate.svg)](https://jitpack.io/#lionants02/CheckDuplicate)  
+[![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
 
-[![Release](https://jitpack.io/v/lionants02/CheckDuplicate.svg)](https://jitpack.io/#lionants02/CheckDuplicate)  
 
 Note
 ```$xslt
