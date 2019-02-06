@@ -5,7 +5,7 @@ import org.glassfish.jersey.server.ResourceConfig
 
 internal class ApplicationConfig : ResourceConfig() {
     init {
-        val rex = Regex("""^class (.*)\.[\w\d_]+""")
+        val rex = Regex("""^class (.*)\.[\w\d_ \(\)]+$""")
         val fullCalssName = LandingPage::class.toString()
         val groupPackageName = rex.matchEntire(fullCalssName)?.groupValues
         packages(groupPackageName!!.last())
